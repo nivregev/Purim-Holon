@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>עדלאידע</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div>
+      <!-- header -->
+      <header class="d-inline-flex w-100 bg-header-style fixed-top">
+        <div class="col-2 col-lg-1">
+          <img
+            class="w-100 logo-holon"
+            src="img/logo's/logo-holon.png"
+            alt="logo-holon"
+          />
+        </div>
+        <nav class="navbar navbar-expand-lg d-flex">
+          <div class="container-fluid stitle-purim">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link border-header-1 text-center"
+                    href="index.html"
+                  >
+                    בית</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link border-header-1 text-center"
+                    href="about.html"
+                  >
+                    פרטים</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link border-header-1 text-center" href="#"
+                    >מדיה</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link border-header-1 text-center" href="#"
+                    >שאלון</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link border-header-1 text-center" href="#"
+                    >ספונסרים</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link border-header-1 text-center" href="#"
+                    >צרו קשר</a
+                  >
+                </li>
+                <li class="nav-item me-5 header-my-style-2">
+                  <h1>פורים חולון 2023</h1>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="bg-main-style mt-5">
+        <!-- carousel -->
+        <div class="d-flex justify-content-center">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide w-75"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="img/festival/tractor-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block mb-3">
+                  <h5 class="h5-my-style">תהלוכת תחפושות</h5>
+                  <p class="p-my-style1">
+                    הנכם מוזמנים להשתתף בתהלוכת התחפושות של העיר חולון <br />
+                    התהלוכה תכלול מוזיקה, , דוכנים, ועוד המון הפתעות לקהל הרחב
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="img/festival/cat-slider-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block mb-3">
+                  <h5 class="h5-my-style">תחרות תחפושות</h5>
+                  <p class="p-my-style1">
+                    בואו להציג את התחפושת המושקעת ביותר ולקטוף פרסים שווים
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/festival/live-show-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block mb-3">
+                  <h5 class="h5-my-style">מופעי הערב שלנו</h5>
+                  <p class="p-my-style1">
+                    נועה קילר, אנה זק, עומר אדם, פול טראנק, שרית חדד אייל גולן
+                    ועוד רבים וטובים
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- h2 and paragraph -->
+        <div class="d-flex flex-column">
+          <h2 class="mt-5 text-center title-my-style-1">
+            העד-לא-ידע מגיעה לחולון!
+          </h2>
+          <p
+            class="justify-content-center m-auto text-center mb-5 fs-5"
+            style="max-width: 600px"
+          >
+            תהלוכת פורים הגדולה במדינה מתקיימת מידי שנה בעיר חולון והיא מהווה
+            שיאה של פעילות קהילתית וארגונית המתרחשת במהלך השנה ומתעצמת לקראת החג
+          </p>
+        </div>
+        <!--  cards top-row  -->
+        <div class="conteiner overflow-hidden">
+          <div class="row gx-5 d-flex justify-content-center">
+            <div class="card mx-4 mb-4" style="width: 18rem">
+              <img
+                src="img/festival/card-1.jpeg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">מידע על התהלוכה</h5>
+                <p class="card-text">
+                  לקבל מידע נוסף על האירוע , מיקומים , שעות דוכנים, הפעלות ועוד
+                  הקליקו על הכפתור
+                </p>
+                <a href="about.html" class="btn btn-primary">מידע נוסף</a>
+              </div>
+            </div>
+            <div class="card mx-4 mb-4" style="width: 18rem">
+              <img
+                src="img/festival/card-2.jpg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">הרשמה לאירוע</h5>
+                <p class="card-text">
+                  לחצו על הכפתור המצורף ותעברו ישירות לטופס ההרשמה לאירוע וקבלו
+                  שובר הנחה למימוש במהלך האירוע
+                </p>
+                <a href="#" class="btn btn-primary">טופס הרשמה</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cards bottom-row -->
+        <div class="conteiner overflow-hidden">
+          <div class="row gx-5 d-flex justify-content-center mt-4">
+            <div class="card mx-4 mb-4" style="width: 18rem">
+              <img
+                src="img/festival/card-3.jpg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ספונסרים</h5>
+                <p class="card-text">
+                  מיטב החברות בארת החליטו להצטרף לחגיגה , באירוע תוכלו להנות
+                  מגוון מוצרים והנחות, הקליקו על הכפתור ופרגנו להם
+                </p>
+                <a href="#" class="btn btn-primary">הספונסרים שלנו</a>
+              </div>
+            </div>
+            <div class="card mx-4 mb-4" style="width: 18rem">
+              <img
+                src="img/festival/card-4.jpg"
+                class="card-img-top mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">תחרות התחפושות</h5>
+                <p class="card-text">
+                  לפרטים נוספים על התחרות, רעיונות מקוריים ותחפושות זוכות משנים
+                  עברו הקליקו על הכפתור
+                </p>
+                <a href="about.html" class="btn btn-primary">מידע לתחרות</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sponsers img -->
+        <div class="d-flex flex-row justify-content-around mt-4">
+          <div>
+            <img
+              class="sponsers-logo-img"
+              src="img/logo's/logo-pizzatarshis.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/logo-burgerr-runch-3.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/logo-goldstar1.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/logo-osem1.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/mey-ede-logo-2.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/logo-azrieli1.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img border border-dark"
+              src="img/logo's/logo-spatholon.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="sponsers-logo-img"
+              src="img/logo's/holon-logo-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <footer class="footer-bg-my-style pt-3">
+        <div class="d-flex justify-content-between align-middle">
+          <div
+            class="footer-holon-info align-self-center mx-4 align-self-center"
+          >
+            עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס: 03-6511851
+          </div>
+          <div class="d-inline-flex mx-3">
+            <div><a href="#" class="fa fa-facebook mx-2"></a></div>
+            <div><a href="#" class="fa fa-twitter mx-2"></a></div>
+            <div><a href="#" class="fa fa-linkedin mx-2"></a></div>
+            <div class="mx-3 align-self-center">nivregev2@gmail.com</div>
+            <div class="align-self-center">&copy Niv Regev</div>
+          </div>
+        </div>
+      </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
