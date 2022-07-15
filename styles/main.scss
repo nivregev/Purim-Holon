@@ -3,6 +3,7 @@
 @import "media";
 @import "sponsers";
 
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 $fontText: "Roboto", sans-serif;
@@ -11,6 +12,7 @@ $fontTitlePattaya: "Pattaya", sans-seri;
 $fontHeader: "Heebo", sans-serif;
 $fonrRubik: "Rubik Moonrocks", cursive;
 $fontRubikBubbles: "Rubik Bubbles", cursive;
+$fontSponsersPage: "Alef", sans-serif;
 
 $colorBlack: #0d0d0d;
 $colorWhite: #f2f2f2;
@@ -100,4 +102,13 @@ $fontSizeHeader: 18px;
 .sponsers-logo-img {
   height: 70px;
   width: 70px;
+}
+
+.media-title-my-style {
+  font-family: $fontRubik;
+  font-size: 50px;
+  color: $colorPurple;
+  text-shadow: 0px -11px 14px rgba(136, 255, 154, 1),
+    -6px 14px 18px rgba(230, 255, 141, 1),
+    20px 9px 13px rgba(255, 148, 72, 0.99), -20px 1px 21px rgba(247, 143, 70, 1);
 }

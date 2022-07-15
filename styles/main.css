@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 .h5-my-style {
@@ -93,6 +96,20 @@ img {
   text-shadow: 0px -11px 14px rgb(136, 255, 154), -6px 14px 18px rgb(230, 255, 141), 20px 9px 13px rgba(255, 148, 72, 0.99), -20px 1px 21px rgb(247, 143, 70);
 }
 
+.bg-sponsers-card {
+  background: #f1f2df;
+  background: linear-gradient(to right, #f1f2df 0%, #e8fffd 50%, #edfff3 100%);
+}
+
+.title-sponsers-my-style {
+  font-size: 24px;
+  font-family: "Alef", sans-serif;
+  background: #418c20;
+  background: linear-gradient(to right, #254517 40%, #6130ff 50%, #a89638 60%, #9a3ba1 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bg-main-style {
   background: #ffcff4;
   background: linear-gradient(to top, #fceaf7 0%, #f4f4cf 100%);
@@ -176,4 +193,11 @@ img {
 .sponsers-logo-img {
   height: 70px;
   width: 70px;
+}
+
+.media-title-my-style {
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 50px;
+  color: #9453a6;
+  text-shadow: 0px -11px 14px rgb(136, 255, 154), -6px 14px 18px rgb(230, 255, 141), 20px 9px 13px rgba(255, 148, 72, 0.99), -20px 1px 21px rgb(247, 143, 70);
 }/*# sourceMappingURL=main.css.map */
