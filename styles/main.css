@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
@@ -121,6 +122,22 @@ img {
 
 .bg-wrong-answer {
   background-color: red;
+}
+
+.form-my-style {
+  border: 1px solid black;
+  background: #fbf7ff;
+  background: linear-gradient(to bottom left, #fbf7ff 0%, #ebffeb 33%, #fdffe8 67%, #ffffff 100%);
+  box-shadow: 0px -20px 25px 3px rgba(255, 197, 191, 0.5), 0px 20px 25px 3px rgba(177, 177, 248, 0.5), -20px 0px 25px 2px rgba(234, 247, 160, 0.5), 20px 0px 25px 2px rgba(175, 247, 146, 0.5);
+}
+
+.sing-in-form {
+  font-family: "Heebo", sans-serif;
+}
+
+.form-title-my-style {
+  font-family: "Karantina", cursive;
+  font-size: 50px;
 }
 
 .bg-main-style {

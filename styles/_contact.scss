@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap");
 $fontText: "Roboto", sans-serif;
 $fontTitleHenny: "Henny Penny", cursiv;
 $fontTitlePattaya: "Pattaya", sans-seri;
@@ -7,6 +8,7 @@ $fontHeader: "Heebo", sans-serif;
 $fontRubik: "Rubik Moonrocks", cursive;
 $fontRubikBubbles: "Rubik Bubbles", cursive;
 $fontSponsersPage: "Alef", sans-serif;
+$fontFormTitle: "Karantina", cursive;
 
 $colorBlack: #0d0d0d;
 $colorWhite: #f2f2f2;
@@ -14,3 +16,29 @@ $colorYellow: #f2cc0f;
 $colorLightGreen: #8cdf3f;
 $colorPurple: #9453a6;
 $fontSizeHeader: 18px;
+
+.form-my-style {
+  border: 1px solid black;
+  background: #fbf7ff;
+  background: linear-gradient(
+    to bottom left,
+    #fbf7ff 0%,
+    #ebffeb 33%,
+    #fdffe8 67%,
+    #ffffff 100%
+  );
+
+  box-shadow: 0px -20px 25px 3px rgba(255, 197, 191, 0.5),
+    0px 20px 25px 3px rgba(177, 177, 248, 0.5),
+    -20px 0px 25px 2px rgba(234, 247, 160, 0.5),
+    20px 0px 25px 2px rgba(175, 247, 146, 0.5);
+}
+
+.sing-in-form {
+  font-family: $fontHeader;
+}
+
+.form-title-my-style {
+  font-family: $fontFormTitle;
+  font-size: 50px;
+}
